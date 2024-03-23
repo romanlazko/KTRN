@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rounded {
+    border-radius: 60px;
+    overflow: hidden;
+}
