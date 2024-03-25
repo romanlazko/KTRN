@@ -78,9 +78,9 @@
                         <p class="text-sm hidden md:block">
                             Мы используем только качественные материалы и современные техники, чтобы ваши руки и ноги выглядели безупречно.
                         </p>
-                        <button class="p-4 bg-[#E0FCB4] rounded-full w-full text-xl font-semibold uppercase whitespace-nowrap">
-                            Записаться ->
-                        </button>
+                        <a href="https://webapp.buukan.com/6" target="__blank" class="p-4 bg-[#E0FCB4] rounded-full w-full text-xl font-semibold uppercase whitespace-nowrap cursor-pointer text-center">
+                            Записаться →
+                        </a>
                     </div>
                 </div>
             </section>
