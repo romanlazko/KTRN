@@ -51,14 +51,14 @@
         <main class="max-w-7xl m-auto space-y-24 p-3">
             {{-- MAIN SECTION --}}
             <section class="w-full grid gap-12 py-4">
-                <div class="md:flex md:space-x-12 space-y-6 md:space-y-0 md:order-last">
-                    <div class="w-full rounded bg-[#EC693E] p-16 md:p-24 relative">
+                <div class="md:flex md:space-x-12 space-y-6 md:space-y-0 md:order-last ">
+                    <div class="w-full rounded bg-[#EC693E] p-16 md:p-24 relative shadow-lg">
                         <img class="m-auto w-[80px]" src="images/Group 1.png" alt="">
                         <p class="absolute bottom-8 left-8 text-lg font-semibold text-white">
                             #MANIKURE
                         </p>
                     </div>
-                    <div class="w-full rounded bg-[#E7C7EF] p-16 md:p-24 relative">
+                    <div class="w-full rounded bg-[#E7C7EF] p-16 md:p-24 relative shadow-lg">
                         <img class="m-auto w-[80px]" src="images/Group 1.png" alt="">
                         <p class="absolute bottom-8 left-8 text-lg font-semibold">
                             #PEDIKURE
@@ -78,7 +78,7 @@
                         <p class="text-sm hidden md:block">
                             Мы используем только качественные материалы и современные техники, чтобы ваши руки и ноги выглядели безупречно.
                         </p>
-                        <a href="https://webapp.buukan.com/6" target="__blank" class="hover:scale-105 hover:underline p-4 bg-[#E0FCB4] rounded-full w-full text-xl font-semibold uppercase whitespace-nowrap cursor-pointer text-center">
+                        <a href="https://webapp.buukan.com/6" target="__blank" class="shadow-lg hover:scale-105 hover:underline p-4 bg-[#E0FCB4] rounded-full w-full text-xl font-semibold uppercase whitespace-nowrap cursor-pointer text-center">
                             Записаться →
                         </a>
                     </div>
@@ -87,15 +87,15 @@
 
             {{-- ABOUT US --}}
             <section class="space-y-6">
-                <div class="w-full relative rounded hidden md:block">
+                <div class="w-full relative rounded hidden md:block shadow-lg">
                     <h2 class="absolute top-12 left-6 font-semibold text-4xl uppercase">
                         {{__("About us")}}
                     </h2>
-                    <img src="images/duct-tape-mockups-on-black-background-top-view 5.png" alt="">
+                    <img src="images/duct-tape-mockups-on-black-background-top-view 5.png" alt="" class="">
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="w-full rounded p-9 space-y-9 border border-black">
+                    <div class="w-full rounded p-9 space-y-9 border border-black bg-white shadow-lg">
                         <div>
                             <span class="text-6xl">
                                 1040+ 
@@ -111,7 +111,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded p-9 space-y-9 border border-black">
+                    <div class="w-full rounded p-9 space-y-9 border border-black bg-white shadow-lg">
                         <div>
                             <span class="text-6xl">
                                 13650+
@@ -127,7 +127,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded p-9 space-y-9 border border-black">
+                    <div class="w-full rounded p-9 space-y-9 border border-black bg-white shadow-lg">
                         <div>
                             <span class="text-6xl">
                                 100% 
@@ -143,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#FCF4F1]">
+                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#FCF4F1] shadow-lg">
                         <div>
                             <img src="images/icons/Group.png" alt="">
                         </div>
@@ -157,7 +157,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#E0FCB4]">
+                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#E0FCB4] shadow-lg">
                         <div>
                             <img src="images/icons/Vector.png" alt="">
                         </div>
@@ -171,7 +171,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#BBD8E9]">
+                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#BBD8E9] shadow-lg">
                         <div>
                             <img src="images/icons/Group 2.png" alt="">
                         </div>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#EC693E]">
+                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#EC693E] shadow-lg">
                         <div>
                             <img src="images/icons/Group 3.png" alt="">
                         </div>
@@ -199,7 +199,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#E7C7EF]">
+                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#E7C7EF] shadow-lg">
                         <div>
                             <img src="images/icons/Group 4.png" alt="">
                         </div>
@@ -213,7 +213,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#202020]">
+                    <div class="w-full rounded-[60px] p-9 space-y-9 bg-[#202020] shadow-lg">
                         <div>
                             <img src="images/icons/Vector-2.png" alt="">
                         </div>
@@ -232,7 +232,7 @@
             {{-- OUR WORKS --}}
             <section>
                 <div class="md:flex md:space-x-12 space-y-6 md:space-y-0">
-                    <img src="images/21st300 1.png" class="md:w-1/2" alt="">
+                    <img src="images/21st300 1.png" class="md:w-1/2 " alt="">
                     <div class="md:w-1/2 grid content-around">
                         <div class="md:flex justify-between hidden">
                             <h2 class="text-4xl uppercase font-bold">
@@ -268,7 +268,7 @@
                 </h2> --}}
                 <div class="md:flex md:space-x-12 space-y-6 md:space-y-0">
                     <div class="w-full md:w-1/3 space-y-6 leading-1">
-                        <button class="p-4 bg-[#E7C7EF] rounded-full text-xl uppercase font-bold whitespace-nowrap w-full">
+                        <button class="shadow-lg p-4 bg-[#E7C7EF] rounded-full text-xl uppercase font-bold whitespace-nowrap w-full">
                             зал педикюра
                         </button>
                         <h3 class="font-bold hidden md:block">
@@ -292,7 +292,7 @@
                             Обратите внимание, что при опаздании на 15 мин. мастер имеет право предложить вам только покрытие камуфлирующей базой без дизайна и донаращивания, при опаздании на 30 мин. - только обработка пальчиков без покрытия. 
                         </p>
                     </div>
-                    <div class="w-full md:w-2/3 p-3 md:p-9 rounded-2xl md:rounded-[60px] border border-black">
+                    <div class="w-full md:w-2/3 p-3 md:p-9 rounded-2xl md:rounded-[60px] border border-black bg-white shadow-lg">
                         <table class="w-full">
                             <thead class="">
                                 <th class="px-2"></th>
@@ -383,13 +383,13 @@
                         </table>
                     </div> 
                 </div> 
-                <img src="images/side-view-woman-playing-with-her-feet-lake 2.png" alt="">
+                <img src="images/side-view-woman-playing-with-her-feet-lake 2.png" alt="" class="">
             </section>
 
             <section class="space-y-12">
                 <div class="md:flex md:space-x-12 space-y-6 md:space-y-0">
                     <div class="w-full md:w-1/3 space-y-6 leading-1">
-                        <button class="p-4 bg-[#EC693E] text-white rounded-full text-xl uppercase font-bold whitespace-nowrap w-full">
+                        <button class="shadow-lg p-4 bg-[#EC693E] text-white rounded-full text-xl uppercase font-bold whitespace-nowrap w-full">
                             зал МАНикюра
                         </button>
                         <h3 class="font-bold hidden md:block">
@@ -413,7 +413,7 @@
                             Обратите внимание, что при опаздании на 15 мин. мастер имеет право предложить вам только покрытие камуфлирующей базой без дизайна и донаращивания, при опаздании на 30 мин. - только обработка пальчиков без покрытия. 
                         </p>
                     </div>
-                    <div class="w-full md:w-2/3 p-3 md:p-9 rounded-2xl md:rounded-[60px] border border-black">
+                    <div class="w-full md:w-2/3 p-3 md:p-9 rounded-2xl md:rounded-[60px] border border-black bg-white shadow-lg">
                         <table class="w-full">
                             <thead>
                                 <th class="px-2"></th>
