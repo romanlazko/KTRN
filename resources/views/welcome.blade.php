@@ -16,31 +16,31 @@
         <header class="px-2 md:p-0 sticky top-0 z-40 bg-white">
             <div class="h-20 m-auto w-full max-w-7xl items-center flex justify-between font-bold">
                 <img src="images/logo.png" alt="">
-                <ul class="md:flex space-x-12 hidden">
-                    <li>
+                <ul class="md:flex space-x-12 hidden uppercase font-light">
+                    <li class="hover:underline">
                         {{ __("About us") }}
                     </li>
-                    <li>
+                    <li  class="hover:underline">
                         {{ __("Our works") }}
                     </li>
-                    <li>
+                    <li  class="hover:underline">
                         {{ __("Services and Prices") }}
                     </li>
-                    <li>
+                    <li  class="hover:underline">
                         {{ __("Work") }}
                     </li>
-                    <li>
+                    <li  class="hover:underline">
                         {{ __("Certificates") }}
                     </li>
-                    <li>
+                    <li  class="hover:underline">
                         {{ __("Kontacts") }}
                     </li>
                 </ul>
                 <ul class="flex space-x-4 text-xl text-gray-500">
-                    <li>
+                    <li  class="hover:text-red-700">
                         <i class="fa-brands fa-instagram"></i>
                     </li>
-                    <li>
+                    <li class="hover:text-blue-700">
                         <i class="fa-brands fa-telegram"></i>
                     </li>
                 </ul>
@@ -78,7 +78,7 @@
                         <p class="text-sm hidden md:block">
                             Мы используем только качественные материалы и современные техники, чтобы ваши руки и ноги выглядели безупречно.
                         </p>
-                        <a href="https://webapp.buukan.com/6" target="__blank" class="p-4 bg-[#E0FCB4] rounded-full w-full text-xl font-semibold uppercase whitespace-nowrap cursor-pointer text-center">
+                        <a href="https://webapp.buukan.com/6" target="__blank" class="hover:scale-105 hover:underline p-4 bg-[#E0FCB4] rounded-full w-full text-xl font-semibold uppercase whitespace-nowrap cursor-pointer text-center">
                             Записаться →
                         </a>
                     </div>
